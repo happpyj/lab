@@ -1,0 +1,301 @@
+/*2.0*/
+img{
+	
+	max-width: 100%;
+}
+.main-body{
+	margin-top: 100px;
+}
+.padding-30{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+/*第一部分*/
+#img-wy{
+	width: 150px;
+}
+#contact-wy img{
+	width: 20px;
+}
+/*新关于*/
+.gy
+{
+	display: inline-block;
+}
+.about
+{
+	float: left; width: 40em; height: 22.5em; margin: 0 2em;
+	position: relative; overflow: hidden; text-align: center; border: 4px solid rgba(255, 255, 255, 0.9);
+}
+.about .txt
+{
+	opacity: 0.9; top: -100%; transition: 0.5s; color: #626262;
+	position: absolute;
+	left: 0; background-color: #fff; height: 100%; width: 100%;
+	font-family: "Microsoft YaHei";
+}
+.about p
+{
+	padding: 1em 3em;text-align: left;line-height: 1.5em;
+}
+.about h3
+{
+	padding: 1em 0 0;font-size: 1.5em;
+}
+.about img
+{
+	transition: 0.5s;width: 40em;
+}
+.about:hover img
+{
+	transform: scale(1.2);
+}
+.about:hover .txt
+{
+	top: 0;
+}
+.btn
+{
+	display: inline-block; padding: 5px 10px; font-size: 14px; color: #fff; border: 2px solid #4d92d9; background-color: #4d92d9;
+	text-decoration: none; transition: 0.4s;margin: 1em 0 0;
+}
+.btn:hover
+{
+	background-color: transparent; color: #4d92d9; transition: 0.4s;
+}
+
+
+
+
+/*新的*/
+/*body {
+	background-color:#e1e7ef;
+}*/
+
+::selection {
+    color:#FFFFFF;
+    background-color:#74cce4;
+    text-shadow:none;
+}
+::-moz-selection {
+    color:#FFFFFF;
+    background-color:#74cce4;
+    text-shadow:none;
+}
+
+div, p, a, img{
+	border: 1px solid red;
+}
+
+/*标题样式*/
+img.title
+{
+	width: 30%;
+	height: auto;
+	margin:0 auto;
+}
+
+/*导航栏样式*/
+div.guide
+{
+	margin:0 auto;
+}
+.guide ul
+{
+  height:60px; background:#80a9dd;margin:0 auto;
+}
+.guide li
+{
+display:inline; height:60px;
+}
+.guide a
+{
+display:inline-block; padding:0 1.5em; height:60px; line-height:60px; 
+color:#FFF; font-size:16px;font-family:"Arial";
+text-decoration:none; 
+transition: 1s;
+}
+.guide b
+{
+	font-size: 20px;font-family:"Microsoft YaHei";
+}
+.guide a:hover
+{
+background:#5186ca;transition: 1s;
+}
+
+
+.div0
+{
+	margin: 0 auto;
+}
+/*导师信息*/
+.wy
+{
+	margin: 2.5em 0;display: inline-block;
+}
+div.img1
+{
+	margin: 0 0 0 10em;width: auto;float: left;
+}
+.img1 img
+{
+	width: 12em;height: auto;transition: 0.5s;
+}
+.img1 img:hover
+{
+	transform: scale(1.1);
+}
+div.h1
+{
+	float: left;width: 20em;margin: 0 0 0 3em;
+}
+.h1 h2
+{
+	font-family: "Microsoft YaHei";font-size:2em;color: #626262;
+	margin: 0;
+	text-align: left;line-height:60px;
+}
+
+.span1
+{
+	font-family: "Microsoft YaHei";font-size:70%;color: #626262; 
+}
+
+.h1 p
+{
+	font-family: "Microsoft YaHei";font-size:1em;color: #626262;
+	text-align: left;line-height:5px;
+}
+div.h2
+{
+	width: 20em;height: :auto;margin: 3em 0 0;
+}
+.h2 img
+{
+	width: 14px;height: auto;padding:0 0.8em;
+}
+.h2 a
+{
+	text-decoration: none;color: #626262;
+}
+.h2 a:hover
+{
+	color:#00367c;
+}
+
+
+
+
+
+/*研究方向*/
+/*标题*/
+.h3
+{
+	font-family: "Microsoft YaHei";color: #463e83;margin: 3em auto 0;text-align: center;
+}
+.h3 strong
+{
+	font-size:1.5em;margin: 0 auto;
+}
+.h3 p
+{
+	font-size:1em;margin: 0.5em auto 0;
+}
+
+/*内容*/
+div.div2
+{
+	margin: 0 auto;width: 60.4em;
+}
+div.img2
+{
+	width: 20em;
+	float: left;margin: 0 auto;
+}
+img.img2
+{
+	width: 13em;height: 13em;
+}
+.img2 p
+{
+	font-family: "Microsoft YaHei";font-size:1em;color: #626262;margin: 0 auto;
+}
+p.p1, p.p2, p.p3
+{
+	font-size:2em;color: #626262;margin: 0em auto 0.5em;
+}
+.p1:hover
+{
+	color: #71cd9d;
+}
+.p2:hover
+{
+	color: #71b0cd;
+}
+.p3:hover
+{
+	color: #cd71c5;
+}
+
+
+/*研究成果*/
+.ky1
+{
+	margin: 3em auto;
+}
+.ky2
+{
+	margin: 0 auto;
+}
+.img-paper
+{
+	margin: 0 auto;width: 30em;display: inline-block;
+}
+.img-photo
+{
+	margin: 0 auto 0.5em;width: 50em;display: inline-block;
+}
+.ky1 img
+{
+	height: 25em; width: auto;
+}
+.ky1 p
+{
+	font-family: "Times New Roman"; color: #626262; font-size: 1.3em;
+}
+.ky1 b:hover
+{
+	color: #00367c;
+}
+
+/*相关链接*/
+.lj ul
+{
+    margin:3em auto;
+}
+.lj li
+{
+    display:inline;margin: 3em;
+}
+.lj img
+{
+	height: 5em;transition: 0.3s;
+}
+.lj img:hover
+{
+	transform: scale(1.2);
+}
+
+/*结尾*/
+.end
+{
+	background-color: #80a9dd;
+	color: #FFF;font-size: 0.7em;font-family: "Microsoft-YaHei";
+	padding: 1em 0;
+}
+.end span:hover
+{
+	color: #463e83;font-family: "Segoe Script";
+}
